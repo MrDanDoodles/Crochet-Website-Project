@@ -1,0 +1,110 @@
+/* - - - Fonts - - - */
+h1{
+    font-family: "Signika", sans-serif;
+}
+h2{
+    font-family: "Signika", sans-serif;
+}
+p{
+    font-family: "Noto Sans Tamil", sans-serif;
+}
+a{
+    font-family: "Signika", sans-serif;
+}
+
+/* - - - Header - - - */
+.header-info{
+    height: 110px; width: 100%;
+    background-color: #F0C473;
+    display: grid;
+    grid-template-columns: 100px 50% 100px;
+    align-items: center; justify-content: center;
+}
+
+.header-info img{
+    grid-column: 1;
+    height: 140px; width: auto;
+    position: absolute;
+    left: 40px;
+}
+
+#header-links{
+    display: flex; grid-column: 2;
+    position: relative;
+    justify-content: center;
+    gap: 80px; top: 30px;
+}
+
+#header-links a{
+    font-size: 20pt;
+    text-decoration: none; color: black;
+}
+
+#social-links{
+    display: flex; grid-column: 3;
+    position: relative; justify-content: center;
+    right: -260%;
+    gap: 10px; top: 30px;
+}
+
+#social-links a img{
+    height: 40px;
+    position: relative;
+}
+
+/* - - - Crochet Images - - - */
+.crochet-image-container{
+    height: 650px; width: 100%;
+    background-color: #F09B73;
+}
+
+/* - - - Lower Bottom Text - - - */
+.important-text-container{
+    height: 800px; width: 100%;
+    display: grid; position: relative;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 80%;
+    justify-content: center;
+}
+
+    /* - - Top Center of Page - - */
+.centered-text{
+    grid-column: 1 / 4;
+    grid-row: 1;  
+    position: relative;
+    text-align: center;
+}
+
+    /* = = = Lower Body Text = = = */
+.lower-body-container{
+    display: flex; position: relative;
+    grid-column: 1 / 4; grid-row: 2;
+    justify-content: center; gap: 50px;
+}
+    /* - - Right Side of Page - - */
+.important-text-container img{
+    position: relative;
+    height: 600px; width: auto;
+    margin: 0px;
+}
+
+
+    /* - - Left Side of Page - - */
+#text-block{
+    position: relative; 
+    display: flex; flex-direction: column;
+    gap: 0px;
+
+    height: 650px; width: 450px;
+    /*background-color: #F09B73;*/
+}
+
+#text-block p{
+    margin: 0px;
+}
+
+/* - - - Bottom Header - - - */
+.bottom-header{
+    height: 100px; width: 100%;
+    background-color: #74D4F0;
+}
