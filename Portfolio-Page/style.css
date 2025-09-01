@@ -1,0 +1,53 @@
+/* - - - Fonts - - - */
+h1{
+    font-family: "Signika", sans-serif;
+}
+h2{
+    font-family: "Signika", sans-serif;
+}
+p{
+    font-family: "Noto Sans Tamil", sans-serif;
+}
+a{
+    font-family: "Signika", sans-serif;
+}
+
+/* - - - Header - - - */
+.header-info{
+    height: 110px; width: 100%;
+    background-color: #F0C473;
+    display: grid;
+    grid-template-columns: 100px 50% 100px;
+    align-items: center; justify-content: center;
+}
+
+.header-info img{
+    grid-column: 1;
+    height: 140px; width: auto;
+    position: absolute;
+    left: 40px;
+}
+
+#header-links{
+    display: flex; grid-column: 2;
+    position: relative;
+    justify-content: center;
+    gap: 80px; top: 30px;
+}
+
+#header-links a{
+    font-size: 20pt;
+    text-decoration: none; color: black;
+}
+
+#social-links{
+    display: flex; grid-column: 3;
+    position: relative; justify-content: center;
+    right: -260%;
+    gap: 10px; top: 30px;
+}
+
+#social-links a img{
+    height: 40px;
+    position: relative;
+}

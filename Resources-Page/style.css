@@ -1,0 +1,144 @@
+/* - - - Fonts - - - */
+h1{
+    font-family: "Signika", sans-serif;
+}
+h2{
+    font-family: "Signika", sans-serif;
+}
+p{
+    font-family: "Noto Sans Tamil", sans-serif;
+}
+a{
+    font-family: "Signika", sans-serif;
+}
+
+/* - - - Header - - - */
+.header-info{
+    height: 110px; width: 100%;
+    background-color: #F0C473;
+    display: grid;
+    grid-template-columns: 100px 50% 100px;
+    align-items: center; justify-content: center;
+}
+
+.header-info img{
+    grid-column: 1;
+    height: 140px; width: auto;
+    position: absolute;
+    left: 40px;
+}
+
+#header-links{
+    display: flex; grid-column: 2;
+    position: relative;
+    justify-content: center;
+    gap: 80px; top: 30px;
+}
+
+#header-links a{
+    font-size: 20pt;
+    text-decoration: none; color: black;
+}
+
+#social-links{
+    display: flex; grid-column: 3;
+    position: relative; justify-content: center;
+    right: -260%;
+    gap: 10px; top: 30px;
+}
+
+#social-links a img{
+    height: 40px;
+    position: relative;
+}
+
+/* = = = = CONTENT BODY CONTAINER = = = = */
+.body-text-container{
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+
+    /* - - Small Content Container LEFT - - */
+.small-content-container-left{
+    display: flex; flex-direction: column; gap: 10px;
+    align-content: center;
+    /*background-color: aqua;*/
+}
+
+.small-content-container-left h2{
+    text-align: center;
+    margin: 0px; margin-top: 30px;
+}
+
+.text-image-left{
+    display: flex; position: relative;
+    height: 420px; width: 900px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-image-left img{
+    position: relative;
+    height: 400px;
+}
+
+.text-image-left p{
+    position: relative;
+}
+
+
+    /* - - Small Content Container RIGHT - - */
+.small-content-container-right{
+    display: flex; flex-direction: column; gap: 10px;
+    align-content: center;
+    /*background-color: aqua;*/
+}
+
+.small-content-container-right h2{
+    text-align: center;
+    margin: 0px; margin-top: 30px;
+}
+
+.text-image-right{
+    display: flex; position: relative;
+    height: 420px; width: 900px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text-image-right img{
+    position: relative;
+    height: 400px;
+}
+
+.text-image-right p{
+    position: relative;
+}
+
+    /* - - Small Content Container MIDDLE - - */
+.small-content-container-middle{
+    display: flex; flex-direction: column; gap: 10px;
+    align-content: center; width: 900px;
+    /*background-color: aqua;*/
+}
+
+.small-content-container-middle h2{
+    text-align: center;
+    margin: 0px; margin-top: 30px;
+}
+
+.small-content-container-middle img{
+    position: relative;
+    height: 400px;
+}
+
+.small-content-container-right p{
+    position: relative;
+}
+
+
+/* = = = BOTTOM HEADER = = = */
+.bottom-header{
+    height: 100px; width: 100%;
+    background-color: #74D4F0;
+}
